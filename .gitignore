@@ -1,0 +1,28 @@
+# Node / npm
+node_modules/
+npm-debug.log
+package-lock.json
+yarn-error.log
+*.log
+
+# Build & dist
+dist/
+build/
+coverage/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Env / Config / Secrets
+.env
+config.json
+
+# (Optional) If you have local scripts or credentials
+*.local
+*.secret
