@@ -22,7 +22,7 @@ const client = new Client({
 setupInteractionHandler(client);
 
 client.once("ready", async () => {
-  console.log(`Bot ist online als ${client.user.tag}`);
+  console.log(`Bot is online as ${client.user.tag}`);
   await registerSlashCommands();
 });
 
