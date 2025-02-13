@@ -80,7 +80,7 @@ npm install
 ```
   
 
-1. Configure config.json
+3. **Configure config.json**
 
 Edit config.json (located in the project’s root or src folder, depending on structure) and fill in your own values, for example:
 
@@ -120,7 +120,7 @@ assistant_description: What the Assistant Goals are and in which language he sho
 
   
 
-4. Run the bot
+4. **Run the bot**
 
   
 ```
