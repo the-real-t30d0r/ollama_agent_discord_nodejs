@@ -11,6 +11,7 @@ build/
 coverage/
 .cache/
 
+tmp/
 # OS
 .DS_Store
 Thumbs.db

@@ -16,6 +16,14 @@ This project is a Discord bot that leverages a **local AI** (via Ollama) and a *
 
 - Summarize the content of a specific website by scraping it and then analyzing the text using Ollama.
 
+
+
+3. **/doc**
+
+   - Upload a Word or Excel file (PDF not supported) and optionally ask a follow-up question.
+   - The bot reads the file contents (e.g., converting `.docx` to text via Mammoth or `.xlsx` via SheetJS), combines the extracted text with your question, and then analyzes/summarizes it using Ollama.
+   - Useful for quick overviews, Q&A, or short analyses of document-based data within Discord.
+
   
 
 Additional utilities include:

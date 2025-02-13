@@ -6,10 +6,11 @@ import {
   
   import { askCommandData, handleAsk } from "./askCommand.js";
   import { summaryCommandData, handleSummary } from "./summaryCommand.js";
-  
+  import { docCommandData, handleDoc } from "./docCommand.js";
   const commandsData = [
     askCommandData,
     summaryCommandData,
+    docCommandData
   ];
   
 
@@ -36,6 +37,9 @@ import {
         await handleAsk(interaction);
       } else if (commandName === "summary") {
         await handleSummary(interaction);
+      }
+      else if (commandName === "doc") {
+        await handleDoc(interaction);
       }
     });
   }
