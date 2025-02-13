@@ -1,0 +1,9 @@
+{
+  "token": "BOT TOKEN",
+  "ollama_url": "http://localhost:11434/",
+  "default_model": "gemma2:9b",
+  "guild_id": "GUILD ID",
+  "client_id": "CLIENT ID",
+   "assistant_description": "You are a helpful assistant that always responds kindly and accurately in German."
+}
+
